@@ -1,0 +1,23 @@
+/* Struggling to get the h1 and list to be centralised */
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .push-right {
+    margin-left: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
