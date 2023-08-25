@@ -1,18 +1,31 @@
-/* Struggling to get the h1 and list to be centralised */
+body {
+  background-image: linear-gradient(to bottom, #5e5ec2 0%, 
+  #181852 25%, white 25%, white 50%, lightgrey 50%, lightgrey 80%, white 80%, white 95%, navy 95%, navy 100%);
+  min-height: 100vh;
+  margin: 0px 250px;
+  color: white;
+}
+
 nav ul {
     display: flex;
+    flex: 1;  
     align-items: center;
-    justify-content: space-around;
     gap: 20px;
   }
 
   .push-right {
     margin-left: auto;
   }
-  
+
+  .second {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 
   ul {
@@ -21,3 +34,82 @@ nav ul {
     margin: 0px;
   }
 
+  img {
+    width: 700px;
+    height: 200px;
+  }
+
+  button {
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+  }
+
+  .third {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box div {
+  background-color: white;
+  width: auto;
+  border: 5px solid lightblue;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  }
+
+  #black {
+    color: black;
+  }
+
+  #words {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    margin: 100px;
+    margin-bottom: 0px;
+    color: black;
+  }
+
+  #quote {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 100px;
+    color: black;
+  }
+  
+    .final {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+  
+  .inside {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: blue;
+    width: auto;
+    padding: 15px 50px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  button, #sign {
+  border: white solid 1px;
+  padding: 0px 20px;
+  }
+
+  h4 {
+    text-align: center;
+  }
